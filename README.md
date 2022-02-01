@@ -9,3 +9,5 @@ There are three projects.
 * Elevens - a solitaire card game
 
 Each of the labs has code and directions.  There are instructions in the files in the main repository.  The src folder has subfolders with the different folders in them.  Each of these folders may have subfolders too.
+
+Just fork the repository and do the exercises.  At least that is what I hope is all you need to do.
