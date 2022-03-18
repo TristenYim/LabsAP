@@ -14,7 +14,7 @@ Just fork the repository and do the exercises.  At least that is what I hope is 
 
 ## More info
 
-After forking the repository (which makes a copy of my repository to your account), clone the repo to your own computer.
+After forking the repository (which makes a copy of my repository to your account), clone the repo to your own computer.  (Using your IDE ought to be easy.)
 
 ### For IntelliJ users
 
@@ -30,4 +30,4 @@ to
 
 ### Other IDE users
 
-I would imagine the process is similar to the process for IntelliJ.
+I would imagine the process is similar to the process for IntelliJ.  Sorry that I do not have more specific instructions.
