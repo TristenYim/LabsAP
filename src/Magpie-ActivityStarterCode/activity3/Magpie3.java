@@ -45,6 +45,19 @@ public class Magpie3
 		{
 			response = "Tell me more about your family.";
 		}
+		else if (findKeyword(statement, "dog") >= 0
+				|| findKeyword(statement, "cat") >= 0)
+		{
+			response = "Tell me more about your pets.";
+		} else if (findKeyword(statement, "Miyoshi") >= 0) {
+			response = "I think he is a good teacher.";
+		} else if (findKeyword(statement, "chess") >= 0) {
+			response = "I love chess! Let's play! e4.";
+		} else if (findKeyword(statement, "e5") >= 0) {
+			response = "Ke2";
+		} else if (findKeyword(statement, "september") >= 0) {
+			response = "Ba-dee-yah, say do you remember? You don't know what I'm talking about? Oh.";
+		}
 		else
 		{
 			response = getRandomResponse();
@@ -163,6 +176,15 @@ public class Magpie3
 		{
 			response = "You don't say.";
 		}
+		else if (whichResponse == 4)
+		{
+			response = "True.";
+		}
+		else if (whichResponse == 5)
+		{
+			response = "Yeah?";
+		}
+
 
 		return response;
 	}
